@@ -1,0 +1,38 @@
+.App-header {
+  background-color: #5f5a5a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.type{
+  background-color: #1a1919;
+  min-height: 70vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  resize: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.col1{ 
+  float: left; 
+  width: 33%;
+}
+.col2{ 
+  display: inline-block; 
+  width: 33%; 
+}
+.col3{ 
+  float: right; 
+  width: 33%; 
+}
